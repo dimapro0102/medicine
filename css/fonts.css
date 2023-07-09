@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/roboto-light.woff');
+}
+
+@font-face {
+	font-family: "LeksaSansPro";
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/leksa-sans-pro.woff');
+}
+
+@font-face {
+	font-family: "LeksaSansPro";
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/leksa-sans-pro-light.woff');
+}

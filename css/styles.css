@@ -1,0 +1,165 @@
+body {
+	min-width: 320px;
+	background: #F1EAE0;
+	padding-top: 50px;
+}
+
+.promotion {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: url(../img/bg_promotion.svg) no-repeat right top;
+}
+
+.promotion .wrap {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+.promotion .item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	min-height: 572px;
+}
+
+.promotion .item img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 48%;
+}
+
+.promotion .item .bg {
+	background: linear-gradient(to right, transparent 24%, #fff 24%);
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+.promotion .item .info {
+	width: 52%;
+	padding: 30px 0 30px 40px;
+}
+
+.promotion .item .info .date {
+	background: #00305F;
+	color: #FFF;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 120%;
+	padding: 5px 0 6px 40px;
+	margin-left: -40px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+
+.promotion .item .info .name {
+	color: #00305F;
+	font-family: 'LeksaSansPro', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 130%;
+	letter-spacing: 0.48px;
+	margin-bottom: 20px;
+}
+
+.promotion .item .info .specialty {
+	color: #00305F;
+	font-family: 'LeksaSansPro', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 130%;
+	letter-spacing: 0.32px;
+	margin-bottom: 60px;
+}
+
+.promotion .item .info .title {
+	color: #00305F;
+	font-family: 'LeksaSansPro', Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 130%;
+	letter-spacing: 0.64px;
+	max-width: 435px;
+	margin-bottom: 30px;
+}
+
+.promotion .item .info .des {
+	color: #00305F;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 150%;
+	max-width: 520px;
+	margin-bottom: 40px;
+}
+
+.promotion .item .info .button a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 120%;
+	width: 150px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #BA9F67;
+}
+
+.promotion .owl-nav {
+	position: absolute;
+	bottom: 0;
+	width: 32%;
+	height: 50px;
+	margin-left: 51%;
+}
+
+.promotion .owl-nav button.owl-prev {
+	background: url(../img/arrow_left.svg) center center no-repeat;
+	width: 51px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.promotion .owl-nav button.owl-next {
+	background: url(../img/arrow_right.svg) center center no-repeat;
+	width: 51px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.promotion .owl-dots {
+	position: absolute;
+	bottom: 0;
+	width: 21%;
+	height: 50px;
+	margin-left: 57%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.promotion .owl-dots .owl-dot {
+	background: #BA9F67;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.promotion .owl-dots .owl-dot:last-child {
+	margin-right: 0;
+}
+
+.promotion .owl-dots .owl-dot:hover,
+.promotion .owl-dots .owl-dot.active {
+	background: #00305F;
+}

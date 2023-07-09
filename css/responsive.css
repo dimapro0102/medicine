@@ -1,0 +1,113 @@
+@media all and (max-width: 767px) {
+
+    body {
+        padding-bottom: 60px;
+    }
+
+    .promotion {
+        background: none;
+    }
+
+    .promotion .item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .promotion .item img {
+        order: 2;
+        position: static;
+        width: auto;
+        margin: 0 auto 50px auto;
+    }
+
+    .promotion .item .bg {
+        order: 1;
+        background: #fff;
+    }
+
+    .promotion .item .info {
+        width: 100%;
+        position: relative;
+        padding: 60px 0 25px 10px;
+    }
+
+    .promotion .item .info .date {
+        position: absolute;
+        font-size: 14px;
+        width: 145px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: -51px;
+        left: 0;
+    }
+
+    .promotion .item .info .name {
+        font-size: 16px;
+        letter-spacing: 0.32px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .promotion .item .info .specialty {
+        font-size: 14px;
+        letter-spacing: 0.28px;
+        margin-bottom: 0;
+    }
+
+    .promotion .item .info .title {
+        font-size: 24px;
+        letter-spacing: 0.48px;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .promotion .item .info .des {
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .promotion .item .info .button a {
+        width: 135px;
+    }
+
+    .promotion .item .info .doctor {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .promotion .owl-nav {
+        width: 98%;
+        height: 30px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .promotion .owl-nav button.owl-prev {
+        width: 31px;
+        height: 30px;
+    }
+
+    .promotion .owl-nav button.owl-next {
+        width: 31px;
+        height: 30px;
+    }
+
+    .promotion .owl-dots {
+        width: 70%;
+        height: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .promotion .owl-dots .owl-dot {
+        width: 6px;
+        height: 6px;
+        margin-right: 10px;
+    }
+
+}
